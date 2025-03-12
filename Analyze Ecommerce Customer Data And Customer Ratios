@@ -3,14 +3,19 @@
 -- Lookout what exact dataset is? --
 
 SELECT * 
-FROM ecommerce;
+FROM ABC;
 
 ---------------------------------------------------------------------------------------------------------------------------------
 -- STARTED CLEANING--
--- FIND OUT ANY NULL VALUE --
+-- FIND OUT ANY NULL VALUE WITH COLUMN BY COLUMN --
 
 SELECT *
 FROM ABC
 WHERE Customer_Age IS NULL;
+
+-- IF NULL VALUE FINDS --
+UPDATE TABLE ABC
+SET CUSTOMER_AGE = 0
+WHERE  CUSTOMER_AGE IS NULL;
 
 -------------------------------------------------------------------------------------------------------------------------------
