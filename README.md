@@ -5,4 +5,4 @@ Hi, I am Avinash.I have completed my Data Analytics study on Coursera Online Lea
 <br>
 This is a repository to showcase skills, share projects and track my progress in Data Analytics.
 ## Table of Contents
-- [About]()
+- [About](https://github.com/Avinash362-max/Avinash_portfolio/blob/main/README.md)
