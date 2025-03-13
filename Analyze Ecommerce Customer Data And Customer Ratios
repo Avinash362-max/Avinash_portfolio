@@ -19,3 +19,19 @@ SET CUSTOMER_AGE = 0
 WHERE  CUSTOMER_AGE IS NULL;
 
 -------------------------------------------------------------------------------------------------------------------------------
+-- THEN FIND OUT ANY DUPLICATE RECORDS COLUMN BY COLUMN --
+SELECT Customer_ID, COUNT(Customer_ID) AS DuplicateRanks
+FROM ABC
+GROUP BY Customer_ID
+HAVING COUNT(Customer_ID)>1;
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+-- ARRENGE ALL RECORDS IN PROPER ORDER --
+-- ARRENDE ALL RECORS ARRENGE BY PURCHASE DATE --
+SELECT * FROM ABC
+ORDER BY Purchase_Date;
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+
