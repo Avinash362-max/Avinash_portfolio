@@ -1,5 +1,6 @@
--- First I get this Dataset from KAGGLE website in EXCEL format. I emport this Dataset In My SQL Server for Cleaning and Managing.
-----------------------------------------------------------------------------------------------------------------------------------
+================================================================================================================================
+--  I get this Dataset from KAGGLE website in EXCEL format. I emport this Dataset In My SQL Server for Cleaning and Managing.
+================================================================================================================================
 -- Lookout what exact dataset is? --
 
 SELECT * 
@@ -33,7 +34,42 @@ HAVING COUNT(Customer_ID)>1;
 
 SELECT * FROM ABC
 ORDER BY Purchase_Date;
--------------------------------------------------------------------------------------------------------------------------------
+===============================================================================================================================
+== NOW GET SOME QUESTION'S ANSWER ==
+== RETRIVE A SPECIFIC DATA FROM WHOLE DATASET ==
+================================================================================================================================
+-- TOTAL CATEGORY --
 
+SELECT COUNT (DISTINCT product_category)
+FROM ABC;
+--------------------------------------------------------------------------------------------------------------------------------
+-- TOTAL PAYMENT METHOD --
 
+SELECT COUNT (DISTINCT payment_mwthod)
+FROM ABC;
+--------------------------------------------------------------------------------------------------------------------------------
+-- MIN AND MAX TOTAL PURCHASE AMT --
+
+SELECT MIN (purchase_amount) AS MIN_PURCHASE_AMT
+FROM ABC;
+
+SELECT MAX (purchase_amount) AS MAX_PURRCHASE_AMT
+FROM ABC
+---------------------------------------------------------------------------------------------------------------------------------
+-- TOTAL MALE AND FEMALE CUSTOMER --
+
+SELECT GENDER
+  ,COUNT( CASE WHEN gender = 'male'
+               THEN 1 END ) AS MALE
+  ,COUNT( CASE WHEN gender = 'female'
+               THEN 1 END ) AS FEMALE
+FROM ABC
+GROUP BY gender;
+---------------------------------------------------------------------------------------------------------------------------------
+-- CATEGORYWISE TOTAL QUANTITY, TOTAL PURCHASE
+
+SELECT product_category, SUM(quantity),SUM(total_purchase_amount)
+FROM ABC
+GROUP BY product_category;
+----------------------------------------------------------------------------------------------------------------------------------
 
