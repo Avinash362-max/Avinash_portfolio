@@ -7,7 +7,7 @@ FROM ABC;
 
 ---------------------------------------------------------------------------------------------------------------------------------
 -- STARTED CLEANING--
--- FIND OUT ANY NULL VALUE WITH COLUMN BY COLUMN --
+-- FIND OUT ANY NULL VALUE WITHIN COLUMN BY COLUMN --
 
 SELECT *
 FROM ABC
