@@ -6,7 +6,7 @@ Hi, I am Avinash.I have completed my Data Analytics study on Coursera Online Lea
 This is a repository to showcase skills, share projects and track my progress in Data Analytics.
 ## Table of Contents
 - [About](https://github.com/Avinash362-max/Avinash_portfolio/blob/main/README.md)
-- - Sql Project 
+ - Sql Project 
       - [E Commerce Data](https://github.com/Avinash362-max/Avinash_portfolio/blob/main/Analyze%20Ecommerce%20Customer%20Data%20And%20Customer%20Ratios)
       - [ All Olympic game]
     
