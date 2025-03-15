@@ -2,7 +2,7 @@
 --  I get this Dataset from KAGGLE website in EXCEL format. I emport this Dataset In My SQL Server for Cleaning and Managing.
 ================================================================================================================================
 -- Lookout what exact dataset is? 
--- ABC is short form of Database file--
+-- ABC is short form of name Database file name --
 
 SELECT * 
 FROM ABC;
