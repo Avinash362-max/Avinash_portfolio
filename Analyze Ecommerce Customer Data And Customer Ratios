@@ -31,7 +31,7 @@ HAVING COUNT(Customer_ID)>1;
 
 -------------------------------------------------------------------------------------------------------------------------------
 -- ARRENGE ALL RECORDS IN PROPER ORDER --
--- ARRENDE ALL RECORS ARRENGE BY PURCHASE DATE --
+-- ARRENDE ALL RECORSDS BY PURCHASE DATE --
 
 SELECT * FROM ABC
 ORDER BY Purchase_Date;
@@ -73,4 +73,60 @@ SELECT product_category, SUM(quantity),SUM(total_purchase_amount)
 FROM ABC
 GROUP BY product_category;
 ----------------------------------------------------------------------------------------------------------------------------------
+-- PAYMENT METHOD WISE TOTAL PURCHASE --
+
+SELECT payment_method, SUM(total_purchase_amount)
+FROM ABC
+GROUP BY payment_method;
+---------------------------------------------------------------------------------------------------------------------------------
+-- CATEGORY WISE TOTAL QUANTITY, TOTAL PURCHASE
+
+SELECT product_category, SUM(quantity), SUM(total_purchase_amount)
+FROM ABC
+GROUP BY product_category;
+---------------------------------------------------------------------------------------------------------------------------------
+-- CUSTOMER WISE QUANTITY, TOTAL PURCHASE AMT--
+
+SELECT customer_name, SUM(quantity),SUM(total_purchase_amount)
+FROM ABC
+GROUP BY customer_name;
+---------------------------------------------------------------------------------------------------------------------------------
+DATE AND GENDER WISE TOTAL QUANTITY, TOTAL PURCHASE
+
+SELECT purchase_date, SUM(quantity),SUM(total_purchase_amount)
+FROM ABC
+GROUP BY purchase_date
+ORDER BY purchase_date;
+
+SELECT gender,SUM(quantity),SUM(total_purchase_amount)
+FROM ABC
+GROUP BY gender;
+----------------------------------------------------------------------------------------------------------------------------------
+TOTAL RETURNS 
+SELECT SUM(returns)
+FROM ABC;
+---------------------------------------------------------------------------------------------------------------------------------
+PAYMENT METHOD WISE AND CATEGORY WISE RETURN
+
+SELECT payment_method, SUM(returns)
+FROM ABC
+GROUP BY payment_method;
+
+SELECT CATEGORY, SUM(returns)
+FROM ABC
+GROUP BY category;
+-------------------------------------------------------------------------------------------------------------------------------
+TOTAL CHURN AND GENDER WISE TOTAL CHURN
+
+SELECT SUM(churn)
+FROM ABC;
+
+SELECT gender, SUM(churn)
+FROM ABC
+GROUP BY gender;
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+
+
 
