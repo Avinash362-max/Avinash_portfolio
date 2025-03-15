@@ -8,6 +8,7 @@ This is a repository to showcase skills, share projects and track my progress in
 - [About](https://github.com/Avinash362-max/Avinash_portfolio/blob/main/README.md)
 - - Sql Project 
       - [E Commerce Data](https://github.com/Avinash362-max/Avinash_portfolio/blob/main/Analyze%20Ecommerce%20Customer%20Data%20And%20Customer%20Ratios)
+      - 
       -[ All Olympic game]
     
   - 
