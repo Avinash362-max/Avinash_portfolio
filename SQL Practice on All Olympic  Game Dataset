@@ -1,0 +1,41 @@
+==========================================================================================================================================
+I get this Dataset From Omline Platform for SQL Query practice purpose. I emport this dataset in MY SQL SERVER for cleaning ang Managing.
+This dataset contain two table. one is Athlete_events and second is noc_region
+I use shortform as athe and noc
+==========================================================================================================================================
+-- Lookout what exact dataset is? 
+-- OLP is short form of name Database file name --
+
+SELECT * 
+FROM athe;
+
+SELECT *
+FROM noc;
+==========================================================================================================================================
+-- STARTED CLEANING--
+-- FIND OUT ANY NULL VALUE WITHIN COLUMN BY COLUMN --
+
+SELECT *
+FROM ATHE
+WHERE AGE IS NULL;
+
+-- IF NULL VALUE FINDS --
+UPDATE TABLE ATHE
+SET AGE = 0
+WHERE  AGE IS NULL;
+
+========================================================================================================================================
+-- ARRENGE ALL RECORDS IN PROPER ORDER --
+-- ARRENDE ALL RECORSDS BY GAMES  --
+
+SELECT * FROM ATHE
+ORDER BY GAME;
+
+SELECT * FROM NOC
+ORDER BY NOC;
+=======================================================================================================================================
+
+
+
+
+
