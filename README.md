@@ -13,7 +13,7 @@ This is a repository to showcase skills, share projects and track my progress in
  - EXCEL PROJECT
       - [Sales and Purchase](https://github.com/Avinash362-max/Avinash_portfolio/commit/f3846d2aa15b0d5d11ae5bbd88c5ec0f1206a7f1)
  - POWER BI
-      - [ All Olympic Games](https://github.com/Avinash362-max/Avinash_portfolio/upload/main)       
+      - [ All Olympic Games](https://github.com/Avinash362-max/Avinash_portfolio/blob/main/333.png)       
         
     
    
