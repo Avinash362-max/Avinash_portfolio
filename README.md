@@ -15,4 +15,6 @@ This is a repository to showcase skills, share projects and track my progress in
  - POWER BI DASHBOARDS
       - [ All Olympic Games](https://github.com/Avinash362-max/Avinash_portfolio/blob/main/333.png)
       - [ E Commerce Data ](https://github.com/Avinash362-max/Avinash_portfolio/blob/main/888.png)
+ - FINAL DATA ANALYASIS PROJECT
+      - [ Soil Pollution and Associated Health Impacts ]       
    
