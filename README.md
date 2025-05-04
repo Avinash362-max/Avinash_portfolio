@@ -11,7 +11,7 @@ This is a repository to showcase skills, share projects and track my progress in
       - [ All Olympic game](https://github.com/Avinash362-max/Avinash_portfolio/blob/main/SQL%20Practice%20on%20All%20Olympic%20%20Game%20Dataset)
         
  - EXCEL PROJECT
-      - [Sales and Purchase](https://github.com/Avinash362-max/Avinash_portfolio/commit/f3846d2aa15b0d5d11ae5bbd88c5ec0f1206a7f1)
+      - [Sales and Purchase](https://github.com/Avinash362-max/EXCEL-PROJECT/blob/main/README.md)
  - POWER BI DASHBOARDS
       - [ All Olympic Games](https://github.com/Avinash362-max/Avinash_portfolio/blob/main/333.png)
       - [ E Commerce Data ](https://github.com/Avinash362-max/Avinash_portfolio/blob/main/888.png)
