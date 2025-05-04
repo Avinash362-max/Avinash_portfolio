@@ -16,5 +16,5 @@ This is a repository to showcase skills, share projects and track my progress in
       - [ All Olympic Games](https://github.com/Avinash362-max/Avinash_portfolio/blob/main/333.png)
       - [ E Commerce Data ](https://github.com/Avinash362-max/Avinash_portfolio/blob/main/888.png)
  - FINAL DATA ANALYASIS PROJECT
-      - [ Soil Pollution and Associated Health Impacts ](https://github.com/Avinash362-max/mycode/blob/main/README.md)       
+      - [ Soil Pollution and Associated Health Impacts ][SQL + POWER BI](https://github.com/Avinash362-max/mycode/blob/main/README.md)       
    
